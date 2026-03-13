@@ -4746,738 +4746,305 @@ Our graphic design work goes beyond individual assets. We design with consistenc
     </p>
   </div>
 </div>
-     <div class="elementor-element elementor-element-5f6715e elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="5f6715e" data-widget_type="heading.default">
-      <div class="elementor-widget-container">
-       <h2 class="elementor-heading-title elementor-size-default">
-        Real stories from Palm Beach entrepreneurs who elevated their brands.
-       </h2>
-      </div>
-     </div>
-     <div class="elementor-element elementor-element-60a7b1b elementor--star-style-star_unicode elementor-widget__width-initial elementor-widget-mobile__width-inherit animated-slow elementor-review--has-separator elementor-widget elementor-widget-reviews" data-e-type="widget" data-element_type="widget" data-id="60a7b1b" data-lzl-an="" data-settings='{"space_between":{"unit":"px","size":5,"sizes":[]},"_animation":"none","_animation_mobile":"fadeIn","speed":500,"autoplay":"yes","autoplay_speed":5000,"loop":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","space_between_tablet":{"unit":"px","size":10,"sizes":[]},"space_between_mobile":{"unit":"px","size":10,"sizes":[]}}' data-widget_type="reviews.default">
-      <div class="elementor-widget-container">
-       <div class="elementor-swiper">
-        <div aria-label="Slides" aria-roledescription="carousel" class="elementor-main-swiper swiper" role="region">
-         <div class="swiper-wrapper">
+<style>
+  /* 1. Fix the Broken Star Rating (Force single line) */
+  .elementor-star-rating {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    gap: 3px; 
+  }
+  .elementor-star-rating i {
+    flex-shrink: 0 !important;
+    font-size: clamp(14px, 3vw, 18px);
+  }
+
+  /* 2. Fix the Card Height and Dead Space */
+  .elementor-widget-reviews .swiper-slide {
+    height: auto !important;
+  }
+  .elementor-testimonial {
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 1.5rem !important;
+  }
+  .elementor-testimonial__content {
+    flex-grow: 1;
+  }
+</style>
+
+<div class="elementor-element elementor-element-5f6715e elementor-widget elementor-widget-heading" data-e-type="widget" data-element_type="widget" data-id="5f6715e" data-widget_type="heading.default">
+  <div class="elementor-widget-container" style="padding: 0 1rem; text-align: center;">
+    <h2 class="elementor-heading-title elementor-size-default" style="font-size: clamp(1.1rem, 4vw, 1.5rem); line-height: 1.4; margin: 0 auto; max-width: 800px;">
+      Real stories from Palm Beach entrepreneurs who elevated their brands.
+    </h2>
+  </div>
+</div>
+
+<div class="elementor-element elementor-element-60a7b1b elementor--star-style-star_unicode elementor-widget__width-initial elementor-widget-mobile__width-inherit animated-slow elementor-review--has-separator elementor-widget elementor-widget-reviews" data-e-type="widget" data-element_type="widget" data-id="60a7b1b" data-lzl-an="" data-settings='{"space_between":{"unit":"px","size":5,"sizes":[]},"_animation":"none","_animation_mobile":"fadeIn","speed":500,"autoplay":"yes","autoplay_speed":5000,"loop":"yes","pause_on_hover":"yes","pause_on_interaction":"yes","space_between_tablet":{"unit":"px","size":10,"sizes":[]},"space_between_mobile":{"unit":"px","size":10,"sizes":[]}}' data-widget_type="reviews.default">
+  <div class="elementor-widget-container">
+    <div class="elementor-swiper">
+      <div aria-label="Slides" aria-roledescription="carousel" class="elementor-main-swiper swiper" role="region">
+        <div class="swiper-wrapper">
+          
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-3b88edc">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Jess and Nate Arnold" class="lzl" data-lzl-src="wp-content/uploads/2025/06/unnamed-2.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVRYCe3QMQEAAADCoPVPbQ0PiEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYM3A0MH9EAAbWntJwAAAAASUVORK5CYII="/>
-              <noscript lzl="">
-               <img alt="Jess and Nate Arnold" decoding="async" src="wp-content/uploads/2025/06/unnamed-2.webp"/>
-              </noscript>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Jess and Nate Arnold
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-fleur">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <div class="elementor-testimonial__image">
+                  <img alt="Fleur Seule" decoding="async" src="wp-content/uploads/2025/06/fleur-seule.webp"/>
+                </div>
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">Fleur Seule</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">Fantastic experience and deliverables! Highly recommend!</div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Working with Local Social has been an absolute game changer!
-              <br/>
-              If you’re anywhere in Jupiter, Palm Beach Gardens, or along the Treasure Coast, I couldn’t recommend Thomas and Local Social more!
-             </div>
             </div>
-           </div>
           </div>
+
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-c6aecbd">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Shawn Callahan" decoding="async" src="data:image/webp;base64,UklGRpgDAABXRUJQVlA4WAoAAAAYAAAAIwAAIwAAQUxQSNkAAAABgGJt2zLlG80zyXUjFt3d0MQqJkLmTELaHBbg7u7SaRwSJNff5X1WEBEM3DZS5KVjvj6CqRbv6OzZ09vr48nUoIPpLNVNTrUs5/SIX3Ka5TCmaZLTVSbU2bY5nWXRosJ+xeku+2alHY5QFhR6HKmMy6Q4YglLbqj2RE2OXFKM7dHNsxAHKPYxhEYfoXeLsPuC8PCH8IyBmcFsgjkQ5t1hvgG2R7cA+Sb7iG+bu0f8I9yX7F+DYDtEd4p/n6arzBASq0oWERTUM013I2Xjytz919d9V7YWkrEMAFZQOCAwAgAAUAwAnQEqJAAkAD6RPphJpaMiIScskLASCWgAqSfMRhEV/gHMAekBkoCsgnfJGtYTqAdID0KzV8CZ508LL8ih83V6sUnVjjaCp1iGi9mQgvzhOiVZKV56+QPseyKGhyVgkxzMa4IJHs29fqAA/v2cHW+3qRzGcOumkFUK2OFHeXwacHItL6jhRw/wGn1vyQ5YZdV2ZTZXMe3hcaIKZq0Fh2odVJfx7Gcm/93arTFKuSnXwDaM3yHV7m2bpHDT1aaSXnTz3cp59Z1P7oe1hXBuxABacMLvMLx1WyD0WKN8bUqxl0GMkySRKjK8HnLLZ+5/5SL4LwI0W647OxjUwbQSWDz0nr8L/nZi3V8gtCqXzmg19Q0M66xwlVlOGpQ83Adcx00atQ9/21V2sna9Uvo94t4SKNC8GHuV7ikwheTClFLU3C8j7RAHVlTr2OVR/ZYSdiJaFxpSnOdkq4ICuAGSEeDK1sgSN7+o7wRf0uXCOkuF7u4VzayIVw5ex62X0ebS03e1p7hKHljLspr5c2xdpcaSqb1SW+9uv6Ck14dOvkJpdLJQuulmduBjabe/fnMBKMMMEAnshRP1lNxAQLnIN9GtXkfd4e0XphHxMff1F2hj0k1y0jn+iG4HEIL5D3vB5EO8d2wYwCP+GuqwV/tXxMX/NwpzCmZQ0xH/f98CvZFnWXb/6jIRwN1pqbr+U2A4TyKuz3wvDxHsDs8I+0nrbF/ZNSsHEIWcIwq5Az9pAABFWElGYAAAAElJKgAIAAAAAgAxAQIABwAAACYAAABphwQAAQAAAC4AAAAAAAAAUGljYXNhAAACAACQBwAEAAAAMDIyMAOQAgAUAAAATAAAAAAAAAAyMDA4OjA4OjMxIDEwOjIxOjI1AA=="/>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Shawn Callahan
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-3b88edc">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <div class="elementor-testimonial__image">
+                  <img alt="Jess and Nate Arnold" class="lzl" data-lzl-src="wp-content/uploads/2025/06/unnamed-2.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVRYCe3QMQEAAADCoPVPbQ0PiEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYM3A0MH9EAAbWntJwAAAAASUVORK5CYII="/>
+                  <noscript lzl=""><img alt="Jess and Nate Arnold" decoding="async" src="wp-content/uploads/2025/06/unnamed-2.webp"/></noscript>
+                </div>
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">Jess and Nate Arnold</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">
+                  Working with Local Social has been an absolute game changer!<br/>If you’re anywhere in Jupiter, Palm Beach Gardens, or along the Treasure Coast, I couldn’t recommend Thomas and Local Social more!
+                </div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Great company and service! I had them help me with my website and they’ve done a great job. Also. Worked on my SEO which has boosted my business. I highly recommend these guys
-             </div>
             </div>
-           </div>
           </div>
+
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-f9da9f8">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Kaitlyn Torres (Timeless Wheels rentals)" decoding="async" src="data:image/webp;base64,UklGRm4CAABXRUJQVlA4WAoAAAAYAAAAGAAAGAAAQUxQSIUAAAABcFpt27K8C/xG8qE4ZIjuuog2bSRNDELj0Gjuzu///7wbRIQCt22U5pihryAr3tJ8fVUvq3HWQ474u6oTHcVB0afqzCFiU1V1J2lRTEUIE1HwDWknEg1VjAaFVBShDiu+gDXawFp+YW1VHEbCaGZMY7wf48XxP2L8Ku4D3Dm415juxP1MAFZQOCCYAQAA0AgAnQEqGQAZAD6RQptKJaOiIagIALASCWYAnTMy8lumciBHghh3jQ+c/YG/UL/c8An+lAcUZgDSm3UaDopIfxiKOusRRSQvn7l7tlSdAAD+1a6VzYCoA5RR4W66ijfniLWMSjGl9wzuckhKe9c/f57/Aey3aG+sn//Ba189GU/mKkuCN9uXcHCwvpeZKzHuMmwKDAJpchvn/+MIpTYttSGCEq8IG1PlK4LRNCNNkRVwUk4nDd9Je1KOL0zwJ7NKY4Jj8EwV7WWrvp/6F3IoIi9U/IVTQIHef9Mf7jcRy/nebb10Ixuiq+cDOoK/7H14eRX/Ex//GB44BhRppjHoR/2Ikr1aZm33YvPNgFqZGfQkUnjBIdpPxxOQEdx/u7CpE1WNFstr2KGmf2571SmkjPJ7cB1GcDl8Q86fDlAFKe5Zn2mEcCmkJxzSv/SBTeb4b6N85wNXK9RhSib7ebN45ipEviSphdqOB7EN9DHpGV//gIGnV4BEQ8rRWTZgIVD9OytN773/394TrzP4CnCP86zgdFWV3gAARVhJRiIAAABJSSoACAAAAAEAMQECAAcAAAAaAAAAAAAAAFBpY2FzYQAA"/>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Kaitlyn Torres (Timeless Wheels rentals)
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-c6aecbd">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <div class="elementor-testimonial__image">
+                  <img alt="Shawn Callahan" decoding="async" src="data:image/webp;base64,UklGRpgDAABXRUJQVlA4WAoAAAAYAAAAIwAAIwAAQUxQSNkAAAABgGJt2zLlG80zyXUjFt3d0MQqJkLmTELaHBbg7u7SaRwSJNff5X1WEBEM3DZS5KVjvj6CqRbv6OzZ09vr48nUoIPpLNVNTrUs5/SIX3Ka5TCmaZLTVSbU2bY5nWXRosJ+xeku+2alHY5QFhR6HKmMy6Q4YglLbqj2RE2OXFKM7dHNsxAHKPYxhEYfoXeLsPuC8PCH8IyBmcFsgjkQ5t1hvgG2R7cA+Sb7iG+bu0f8I9yX7F+DYDtEd4p/n6arzBASq0oWERTUM013I2Xjytz919d9V7YWkrEMAFZQOCAwAgAAUAwAnQEqJAAkAD6RPphJpaMiIScskLASCWgAqSfMRhEV/gHMAekBkoCsgnfJGtYTqAdID0KzV8CZ508LL8ih83V6sUnVjjaCp1iGi9mQgvzhOiVZKV56+QPseyKGhyVgkxzMa4IJHs29fqAA/v2cHW+3qRzGcOumkFUK2OFHeXwacHItL6jhRw/wGn1vyQ5YZdV2ZTZXMe3hcaIKZq0Fh2odVJfx7Gcm/93arTFKuSnXwDaM3yHV7m2bpHDT1aaSXnTz3cp59Z1P7oe1hXBuxABacMLvMLx1WyD0WKN8bUqxl0GMkySRKjK8HnLLZ+5/5SL4LwI0W647OxjUwbQSWDz0nr8L/nZi3V8gtCqXzmg19Q0M66xwlVlOGpQ83Adcx00atQ9/21V2sna9Uvo94t4SKNC8GHuV7ikwheTClFLU3C8j7RAHVlTr2OVR/ZYSdiJaFxpSnOdkq4ICuAGSEeDK1sgSN7+o7wRf0uXCOkuF7u4VzayIVw5ex62X0ebS03e1p7hKHljLspr5c2xdpcaSqb1SW+9uv6Ck14dOvkJpdLJQuulmduBjabe/fnMBKMMMEAnshRP1lNxAQLnIN9GtXkfd4e0XphHxMff1F2hj0k1y0jn+iG4HEIL5D3vB5EO8d2wYwCP+GuqwV/tXxMX/NwpzCmZQ0xH/f98CvZFnWXb/6jIRwN1pqbr+U2A4TyKuz3wvDxHsDs8I+0nrbF/ZNSsHEIWcIwq5Az9pAABFWElGYAAAAElJKgAIAAAAAgAxAQIABwAAACYAAABphwQAAQAAAC4AAAAAAAAAUGljYXNhAAACAACQBwAEAAAAMDIyMAOQAgAUAAAATAAAAAAAAAAyMDA4OjA4OjMxIDEwOjIxOjI1AA=="/>
+                </div>
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">Shawn Callahan</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">Great company and service! I had them help me with my website and they’ve done a great job. Also. Worked on my SEO which has boosted my business. I highly recommend these guys</div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Working with Local Social LLC was such a great experience! They created an incredible video for Timeless Wheels Rentals that truly captured the heart of what we do.
-              <br/>
-              <br/>
-              We’re so grateful for their talent and support and can’t wait to work together again in the future!
-              <br/>
-              <br/>
-             </div>
             </div>
-           </div>
           </div>
+
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-c14cd49">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Janet Lopez" class="lzl" data-lzl-src="wp-content/uploads/2025/06/unnamed-1.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVRYCe3QMQEAAADCoPVPbQ0PiEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYM3A0MH9EAAbWntJwAAAAASUVORK5CYII="/>
-              <noscript lzl="">
-               <img alt="Janet Lopez" decoding="async" src="wp-content/uploads/2025/06/unnamed-1.webp"/>
-              </noscript>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Janet Lopez
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-f9da9f8">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <div class="elementor-testimonial__image">
+                  <img alt="Kaitlyn Torres (Timeless Wheels rentals)" decoding="async" src="data:image/webp;base64,UklGRm4CAABXRUJQVlA4WAoAAAAYAAAAGAAAGAAAQUxQSIUAAAABcFpt27K8C/xG8qE4ZIjuuog2bSRNDELj0Gjuzu///7wbRIQCt22U5pihryAr3tJ8fVUvq3HWQ474u6oTHcVB0afqzCFiU1V1J2lRTEUIE1HwDWknEg1VjAaFVBShDiu+gDXawFp+YW1VHEbCaGZMY7wf48XxP2L8Ku4D3Dm415juxP1MAFZQOCCYAQAA0AgAnQEqGQAZAD6RQptKJaOiIagIALASCWYAnTMy8lumciBHghh3jQ+c/YG/UL/c8An+lAcUZgDSm3UaDopIfxiKOusRRSQvn7l7tlSdAAD+1a6VzYCoA5RR4W66ijfniLWMSjGl9wzuckhKe9c/f57/Aey3aG+sn//Ba189GU/mKkuCN9uXcHCwvpeZKzHuMmwKDAJpchvn/+MIpTYttSGCEq8IG1PlK4LRNCNNkRVwUk4nDd9Je1KOL0zwJ7NKY4Jj8EwV7WWrvp/6F3IoIi9U/IVTQIHef9Mf7jcRy/nebb10Ixuiq+cDOoK/7H14eRX/Ex//GB44BhRppjHoR/2Ikr1aZm33YvPNgFqZGfQkUnjBIdpPxxOQEdx/u7CpE1WNFstr2KGmf2571SmkjPJ7cB1GcDl8Q86fDlAFKe5Zn2mEcCmkJxzSv/SBTeb4b6N85wNXK9RhSib7ebN45ipEviSphdqOB7EN9DHpGV//gIGnV4BEQ8rRWTZgIVD9OytN773/394TrzP4CnCP86zgdFWV3gAARVhJRiIAAABJSSoACAAAAAEAMQECAAcAAAAaAAAAAAAAAFBpY2FzYQAA"/>
+                </div>
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">Kaitlyn Torres (Timeless Wheels rentals)</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">
+                  Working with Local Social LLC was such a great experience! They created an incredible video for Timeless Wheels Rentals that truly captured the heart of what we do.<br/><br/>We’re so grateful for their talent and support and can’t wait to work together again in the future!
+                </div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              If there is someone that can capture the best shots on the ground or above the ground is the team of Local Social Marketing!! Wow I am obsessed with their work! Highly recommend!
-             </div>
             </div>
-           </div>
           </div>
+
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-06859c6">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Victoria Rivera" class="lzl" data-lzl-src="wp-content/uploads/2025/06/unnamed.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVRYCe3QMQEAAADCoPVPbQ0PiEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYM3A0MH9EAAbWntJwAAAAASUVORK5CYII="/>
-              <noscript lzl="">
-               <img alt="Victoria Rivera" decoding="async" src="wp-content/uploads/2025/06/unnamed.webp"/>
-              </noscript>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Victoria Rivera
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-c14cd49">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <div class="elementor-testimonial__image">
+                  <img alt="Janet Lopez" class="lzl" data-lzl-src="wp-content/uploads/2025/06/unnamed-1.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVRYCe3QMQEAAADCoPVPbQ0PiEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYM3A0MH9EAAbWntJwAAAAASUVORK5CYII="/>
+                  <noscript lzl=""><img alt="Janet Lopez" decoding="async" src="wp-content/uploads/2025/06/unnamed-1.webp"/></noscript>
+                </div>
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">Janet Lopez</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">If there is someone that can capture the best shots on the ground or above the ground is the team of Local Social Marketing!! Wow I am obsessed with their work! Highly recommend!</div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Local Social captured the most perfect moments on camera from our networking event Sunday, the perfect go to marketing company for your business!
-             </div>
             </div>
-           </div>
           </div>
+
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-214db06">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Kris S" class="lzl" data-lzl-src="wp-content/uploads/2025/06/unnamed-3.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVRYCe3QMQEAAADCoPVPbQ0PiEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYM3A0MH9EAAbWntJwAAAAASUVORK5CYII="/>
-              <noscript lzl="">
-               <img alt="Kris S" decoding="async" src="wp-content/uploads/2025/06/unnamed-3.webp"/>
-              </noscript>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Kris S
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-06859c6">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <div class="elementor-testimonial__image">
+                  <img alt="Victoria Rivera" class="lzl" data-lzl-src="wp-content/uploads/2025/06/unnamed.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVRYCe3QMQEAAADCoPVPbQ0PiEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYM3A0MH9EAAbWntJwAAAAASUVORK5CYII="/>
+                  <noscript lzl=""><img alt="Victoria Rivera" decoding="async" src="wp-content/uploads/2025/06/unnamed.webp"/></noscript>
+                </div>
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">Victoria Rivera</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">Local Social captured the most perfect moments on camera from our networking event Sunday, the perfect go to marketing company for your business!</div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Awesome work with Kat and her team. So fun and easy to get everything organized. She and her team go above and beyond to give the best possible product and service. You will love her work.
-              <br/>
-              <br/>
-              If you’re anywhere in Jupiter, Palm Beach Gardens, or along the Treasure Coast, I couldn’t recommend Thomas and Local Social more!
-             </div>
             </div>
-           </div>
           </div>
+
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-7e814d7">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Elisa Butler" class="lzl" data-lzl-src="wp-content/uploads/2025/06/unnamed-4.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVRYCe3QMQEAAADCoPVPbQ0PiEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYM3A0MH9EAAbWntJwAAAAASUVORK5CYII="/>
-              <noscript lzl="">
-               <img alt="Elisa Butler" decoding="async" src="wp-content/uploads/2025/06/unnamed-4.webp"/>
-              </noscript>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Elisa Butler
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-214db06">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <div class="elementor-testimonial__image">
+                  <img alt="Kris S" class="lzl" data-lzl-src="wp-content/uploads/2025/06/unnamed-3.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVRYCe3QMQEAAADCoPVPbQ0PiEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYM3A0MH9EAAbWntJwAAAAASUVORK5CYII="/>
+                  <noscript lzl=""><img alt="Kris S" decoding="async" src="wp-content/uploads/2025/06/unnamed-3.webp"/></noscript>
+                </div>
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">Kris S</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">Great team! Their work helped us gain great exposure and results. Highly recommend!</div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              I'm absolutely thrilled with the logo you created! You were incredibly quick, responsive, and easy to work with throughout the entire process.
-              <br/>
-              <br/>
-              Your pricing was also very reasonable. I highly recommend your services to anyone looking for a talented and efficient graphic designer!
-             </div>
             </div>
-           </div>
           </div>
+
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-aac5554">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Alyssa Blake" decoding="async" src="data:image/webp;base64,UklGRnQDAABXRUJQVlA4WAoAAAAYAAAAIwAAIwAAQUxQSLwAAAABgKL//7rmi3VIrhex6NDcIXESyDwka5xAk7tOLrC2Z2lLW9zzd/ucICIYuW3jSDpN25r4ESSrqzm6ff39fl76VSupNLNkZF2k1RB5Mooew4p0GVV25DGvGZXOTDJYXhjV7o1SNowGpxJ6jCbbIuKMRgMCb1rZEVGB0WycaKedCfkZgJYWgvwYQe8dwfYHwcc/gm8MmAFmC+ZCmH+HqQFILWFqElLbmB6B9BqkZzG9D8kQRBZBMg2bjZCMJVZQOCAqAgAA8AoAnQEqJAAkAD6RQJxKJaOioaq1WViwEglAFVIDCOQOh1a8lN0GUDwU4wNVO0K5rW+ADU+UXuSDii5Q7pajDtLC/u8uX6n2/6dVFQq4J4gdhqo6HBksmesMOMe3QugAAP5vd4DJNT33m30i7Ep9yBqriGLnEatzwFCFspzaSugr9lXu3aYs+O98Pbg8PX/NUvxBXgrV60WhaueX15SKaJii2qMPl6Q2N7PU/XvxqO4Rat+PMYIjh+Ncle7gWcJG2niRb4rSeukxMa9vmKQrOc9vrxXhXLqx27jmImeCh1jLYPm1iyj8iMyZr2qdYpNac8C+p69bz3/GXVZyjxjyzV/Pk5EIZ9MS34EtKBUOy2pkYZNqH/BUCfjz36/i738itYgLRg7Ea4nClNeeA8KBpwkIP7xF3NczQVkzwfTfMYuIbMeXJt0XPNdn7g7Av4uVMinPT3lQRKR9tlQbG0kRJZgtpJ0dxs2gEMeg59OVsmwuCoIFpVjcsGFYsOhNz6VxXmuiY505Iwq51MLb4ldwa03STJaqjaCebluozABCcJ200v/j7Hn/3rnHqc5En5uE2fqNv4uFdasC/qgb4kuuPtF/Vdf4a6UTgtlKQobyyaP5+jWId/pQh4D+351qe0JCxf8gTtl+k6MwyJqU+cdYGBnGEuc7ObsrW/20MGdJUFBwLMzgvPREpnmMP0Bpmts6whgg+Kp3BlOXYRCjhG4N7cRy35tCEZ0AAABFWElGYAAAAElJKgAIAAAAAgAxAQIABwAAACYAAABphwQAAQAAAC4AAAAAAAAAUGljYXNhAAACAACQBwAEAAAAMDIyMAOQAgAUAAAATAAAAAAAAAAyMDE4OjA0OjEzIDE2OjAwOjQ4AA=="/>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Alyssa Blake
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-6213d66">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <div class="elementor-testimonial__image">
+                  <img alt="Lauren Stokes" class="lzl" data-lzl-src="wp-content/uploads/2025/10/unnamed-4.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAcklEQVR4Ae3QAQ0AAADCoPdPbQ43iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGPgYGFFIAAFJA6CZAAAAAElFTkSuQmCC"/>
+                  <noscript lzl=""><img alt="Lauren Stokes" decoding="async" src="wp-content/uploads/2025/10/unnamed-4.webp"/></noscript>
+                </div>
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">Lauren Stokes</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">Amazing job these guys did for me logo looks great. Very easy going people to work with highly recommend!</div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              I had an amazing experience working with Local Social LLC! Thomas helped me create my first YouTube video, and I couldn’t be happier with how it turned out.
-              <br/>
-              <br/>
-              He has the most professional camera equipment, and his expertise in videography, editing, and photography is next level.
-             </div>
             </div>
-           </div>
           </div>
+
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-7242d6e">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Jennifer Mcwilliams" decoding="async" src="data:image/webp;base64,UklGRr4CAABXRUJQVlA4WAoAAAAYAAAAIwAAIwAAQUxQSLwAAAABgKL//7rmi3VIrhex6NDcIXESyDwka5xAk7tOLrC2Z2lLW9zzd/ucICIYuW3jSDpN25r4ESSrqzm6ff39fl76VSupNLNkZF2k1RB5Mooew4p0GVV25DGvGZXOTDJYXhjV7o1SNowGpxJ6jCbbIuKMRgMCb1rZEVGB0WycaKedCfkZgJYWgvwYQe8dwfYHwcc/gm8MmAFmC+ZCmH+HqQFILWFqElLbmB6B9BqkZzG9D8kQRBZBMg2bjZCMJVZQOCCyAQAAMAoAnQEqJAAkAD6RPJxKJaMioaq1WViwEglnAMtvfBjLxlJv8tTSss4aQAX3bz1bPwi2VNzbB/jrHHaK1QQURxcNR33usJZChUH5ROS+f0xgyz+NGk6udQPAAP7Y7Aw5djtHE0CIGVuKwQJqeC/MNqCeySL7zBDQNo+5oCWHDneCxp9aJ/SGLWXm5FHTwcqavvqG/1xs8zz7sy5VyLcTfmY0rV4/55Ugp1GwyVVqedQckK/gKt8TFY8lNUwKAGBB1rp7cBOoOfdh6lHWU6H1jd0hcLuqCLIQqUvZWmaK4Kxe9Jiss/F9VwH0lN6yQMhn6Kr8fBOzRjjrvbp9VwCA/kMmBCeuLycjSAVwZ/DUsj6IOpjKbmBgNJKkmmzvpY9xDxW2pRg9DxLnaDzBH6Wb2UFlC80wzax6ur11ui5mB93ERCF/ec3bcfh0+jOnV2sAKHpTZK0c4G38Nz3Tm1TQnQ2YxrJt/H+lMEOcYd+oWGI7H6+lRGuA4wiO1JTE5Bx03dyA89WPufjQua7oFGNaR+Lqfk1772IwXdD85JcwmU1xkKHQDfZj1oufcL+nMmWAAABFWElGIgAAAElJKgAIAAAAAQAxAQIABwAAABoAAAAAAAAAUGljYXNhAAA="/>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Jennifer Mcwilliams
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-283f39f">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <div class="elementor-testimonial__image">
+                  <img alt="Debra Borger" decoding="async" src="data:image/webp;base64,UklGRuYDAABXRUJQVlA4WAoAAAAYAAAAIwAAIwAAQUxQSLwAAAABgKL//7rmi3VIrhex6NDcIXESyDwka5xAk7tOLrC2Z2lLW9zzd/ucICIYuW3jSDpN25r4ESSrqzm6ff39fl76VSupNLNkZF2k1RB5Mooew4p0GVV25DGvGZXOTDJYXhjV7o1SNowGpxJ6jCbbIuKMRgMCb1rZEVGB0WycaKedCfkZgJYWgvwYQe8dwfYHwcc/gm8MmAFmC+ZCmH+HqQFILWFqElLbmB6B9BqkZzG9D8kQRBZBMg2bjZCMJVZQOCCcAgAAUA0AnQEqJAAkAD6RQphJJaQiISq6qqiwEglsAMIo4nt7cAbxX6FfSvVzP4THQKIz8LUwrnj+mfUj/p//I683oZ/rWbXz6bUSNioy9Bz4k/0qkq/0hmCxnzeeLjUGIvdjh6W23k+f+qWs4zMCf8tlUm1nAAD++XATM3iZu2LTf7nbHGP2ewOenso9N42TenDspW7G2jklPExTuHsoQGVZXp/0SlzDE9utGt5dtmWvP7h9XB6AGsSliI+eRoQspo2iqQEur+YSJS+ZXcD0+IleCbIu7TC/XaLVtR9v1rSD/l+wYx2lyEe+pOd2un49T+On5Tf3ikF7jwnTHvwXdIRV1gEk7I7rfwB/+R9CLVZhe/vFAioSi+eX3LxjXbprx6p9jf4IUnuczB0QJcmibsqcpoG/tOxDGlw8h/UTBo+HvXKqccL+u58B0wPxn8ltxQh9SEWHRgWGKnQ7nJgKDwlJ3Jqk9OJfvJEPguQBCDU/68jCWIF583wqcWJOJgPJenI4jwahU2B4PaFIfHvJcxz0AkInkpah9qgJvmpfyDLDfqiF1qJu+mqlJkpzNdXGw715mIYlN2FcHzTbAA8f47VPeUuUaUC/51FYpkXMnC+xoqQ+3HcwsQrk4DoTiopGtd7V3Tq7GAjZerusvgts57vyEGt2j8cWEWFvS3TM1nmp64/tqfryMFvv6sRBvDWEL2J9tYfg3b9foVDTrx56AtVh2k8z+hwTeFWj3/nboLsYvYxP8DBAlHObKtwfNWmchdTKku6jamcDNC17ycn6CUx/+vPWHSI1YrKfFw0WrGh7W1yOPT55QH/EKtq91wpMsktaf9DM9CsP5S6nRHp8GAp2Kh1UhsKv5AB5KbAoixA/pYQUwyShfYz+yR3yoABFWElGYAAAAElJKgAIAAAAAgAxAQIABwAAACYAAABphwQAAQAAAC4AAAAAAAAAUGljYXNhAAACAACQBwAEAAAAMDIyMAOQAgAUAAAATAAAAAAAAAAyMDIzOjA0OjE5IDIwOjA5OjM0AA=="/>
+                </div>
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">Debra Borger</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">
+                  Thomas has been such a huge help with my social media these last few months.<br/><br/>I love the platform he uses to share his posts, which I can then approve, edit or comment on. It helps to be able to go back and look at the calendar that he created for the month and know that he has it under control and we can “set it and forget it!”
+                </div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Great service and very accommodating. Definitely give this company a try.
-             </div>
             </div>
-           </div>
           </div>
+
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-5e0809a">
-            <div class="elementor-testimonial__header">
-             <div class="elementor-testimonial__image">
-              <img alt="Dawn Parry" class="lzl" data-lzl-src="wp-content/uploads/2025/10/unnamed.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAApElEQVR4Ae3QgQAAAADDoPlTH+SFUGHAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDBgwYMGDAgAEDXwMDfuoAAd8rsAIAAAAASUVORK5CYII="/>
-              <noscript lzl="">
-               <img alt="Dawn Parry" decoding="async" src="wp-content/uploads/2025/10/unnamed.webp"/>
-              </noscript>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Dawn Parry
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-b65b297">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">Dawn Parry</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">Great experience and took a weight off of my shoulders to have my posts scheduled for the month without having to worry about it. I highly recommend Thomas and his crew.</div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
             </div>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Great experience and took a weight off of my shoulders to have my posts scheduled for the month without having to worry about it. I highly recommend Thomas and his crew.
-             </div>
-            </div>
-           </div>
           </div>
+
           <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-a76c193">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Tiffany Martinez Maglio
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
+            <div class="elementor-testimonial elementor-repeater-item-7a098bc">
+              <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
+                <div class="elementor-testimonial__image">
+                  <img alt="John Bierkan" class="lzl" data-lzl-src="wp-content/uploads/2025/03/unnamed-1.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAAtCAYAAAA6GuKaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO0lEQVRYCe3QMQEAAADCoPVPbQ0PiEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYM3A0MH9EAAbWntJwAAAAASUVORK5CYII="/>
+                  <noscript lzl=""><img alt="John Bierkan" decoding="async" src="wp-content/uploads/2025/03/unnamed-1.webp"/></noscript>
+                </div>
+                <cite class="elementor-testimonial__cite">
+                  <span class="elementor-testimonial__name">John Bierkan</span>
+                  <div class="elementor-star-rating">
+                    <i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i><i class="elementor-star-full">☆</i>
+                  </div>
+                </cite>
+                <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
+                  <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z"></path></svg>
+                </div>
+              </a>
+              <div class="elementor-testimonial__content">
+                <div class="elementor-testimonial__text">Thomas & Sebastian were attentive & responsive with helping me modernize my website!</div>
               </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              I want to extend a heartfelt thank you to Thomas and the team at Local Social Marketing LLC for their incredible support in covering our Habitat for Humanity Veteran Build Kick-Off event.
-             </div>
             </div>
-           </div>
           </div>
-          <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-ae828d2">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Fleur Seule" class="lzl" data-lzl-src="wp-content/uploads/2025/10/unnamed-3.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAcklEQVR4Ae3QAQ0AAADCoPdPbQ43iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGPgYGFFIAAFJA6CZAAAAAElFTkSuQmCC"/>
-              <noscript lzl="">
-               <img alt="Fleur Seule" decoding="async" src="wp-content/uploads/2025/10/unnamed-3.webp"/>
-              </noscript>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Fleur Seule
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-              </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Fantastic experience and deliverables! Highly recommend!
-             </div>
-            </div>
-           </div>
-          </div>
-          <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-6213d66">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Lauren Stokes" class="lzl" data-lzl-src="wp-content/uploads/2025/10/unnamed-4.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAcklEQVR4Ae3QAQ0AAADCoPdPbQ43iEBhwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGDBgwIABAwYMGPgYGFFIAAFJA6CZAAAAAElFTkSuQmCC"/>
-              <noscript lzl="">
-               <img alt="Lauren Stokes" decoding="async" src="wp-content/uploads/2025/10/unnamed-4.webp"/>
-              </noscript>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Lauren Stokes
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-              </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Amazing job these guys did for me logo looks great
-Very easy going people to work with highly recommend!
-             </div>
-            </div>
-           </div>
-          </div>
-          <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-283f39f">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="Debra Borger" decoding="async" src="data:image/webp;base64,UklGRuYDAABXRUJQVlA4WAoAAAAYAAAAIwAAIwAAQUxQSLwAAAABgKL//7rmi3VIrhex6NDcIXESyDwka5xAk7tOLrC2Z2lLW9zzd/ucICIYuW3jSDpN25r4ESSrqzm6ff39fl76VSupNLNkZF2k1RB5Mooew4p0GVV25DGvGZXOTDJYXhjV7o1SNowGpxJ6jCbbIuKMRgMCb1rZEVGB0WycaKedCfkZgJYWgvwYQe8dwfYHwcc/gm8MmAFmC+ZCmH+HqQFILWFqElLbmB6B9BqkZzG9D8kQRBZBMg2bjZCMJVZQOCCcAgAAUA0AnQEqJAAkAD6RQphJJaQiISq6qqiwEglsAMIo4nt7cAbxX6FfSvVzP4THQKIz8LUwrnj+mfUj/p//I683oZ/rWbXz6bUSNioy9Bz4k/0qkq/0hmCxnzeeLjUGIvdjh6W23k+f+qWs4zMCf8tlUm1nAAD++XATM3iZu2LTf7nbHGP2ewOenso9N42TenDspW7G2jklPExTuHsoQGVZXp/0SlzDE9utGt5dtmWvP7h9XB6AGsSliI+eRoQspo2iqQEur+YSJS+ZXcD0+IleCbIu7TC/XaLVtR9v1rSD/l+wYx2lyEe+pOd2un49T+On5Tf3ikF7jwnTHvwXdIRV1gEk7I7rfwB/+R9CLVZhe/vFAioSi+eX3LxjXbprx6p9jf4IUnuczB0QJcmibsqcpoG/tOxDGlw8h/UTBo+HvXKqccL+u58B0wPxn8ltxQh9SEWHRgWGKnQ7nJgKDwlJ3Jqk9OJfvJEPguQBCDU/68jCWIF583wqcWJOJgPJenI4jwahU2B4PaFIfHvJcxz0AkInkpah9qgJvmpfyDLDfqiF1qJu+mqlJkpzNdXGw715mIYlN2FcHzTbAA8f47VPeUuUaUC/51FYpkXMnC+xoqQ+3HcwsQrk4DoTiopGtd7V3Tq7GAjZerusvgts57vyEGt2j8cWEWFvS3TM1nmp64/tqfryMFvv6sRBvDWEL2J9tYfg3b9foVDTrx56AtVh2k8z+hwTeFWj3/nboLsYvYxP8DBAlHObKtwfNWmchdTKku6jamcDNC17ycn6CUx/+vPWHSI1YrKfFw0WrGh7W1yOPT55QH/EKtq91wpMsktaf9DM9CsP5S6nRHp8GAp2Kh1UhsKv5AB5KbAoixA/pYQUwyShfYz+yR3yoABFWElGYAAAAElJKgAIAAAAAgAxAQIABwAAACYAAABphwQAAQAAAC4AAAAAAAAAUGljYXNhAAACAACQBwAEAAAAMDIyMAOQAgAUAAAATAAAAAAAAAAyMDIzOjA0OjE5IDIwOjA5OjM0AA=="/>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Debra Borger
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-              </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Thomas has been such a huge help with my social media these last few months.
-              <br/>
-              <br/>
-              I love the platform he uses to share his posts, which I can then approve, edit or comment on. It helps to be able to go back and look at the calendar that he created for the month and know that he has it under control and we can “set it and forget it!”
-              <br/>
-              <br/>
-             </div>
-            </div>
-           </div>
-          </div>
-          <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-b65b297">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               Dawn Parry
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-              </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Great experience and took a weight off of my shoulders to have my posts scheduled for the month without having to worry about it. I highly recommend Thomas and his crew.
-             </div>
-            </div>
-           </div>
-          </div>
-          <div aria-roledescription="slide" class="swiper-slide" role="group">
-           <div class="elementor-testimonial elementor-repeater-item-7a098bc">
-            <a class="elementor-testimonial__header" data-wpel-link="external" href="https://g.co/kgs/4H3V6ob" rel="nofollow external noopener noreferrer" target="_blank">
-             <div class="elementor-testimonial__image">
-              <img alt="John Bierkan" class="lzl" data-lzl-src="wp-content/uploads/2025/03/unnamed-1.webp" decoding="async" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAALklEQVRYCe3QMQEAAADCoPVPbQdviEBhwIABAwYMGDBgwIABAwYMGDBgwICBf2AUZAAB+BSwyAAAAABJRU5ErkJggg=="/>
-              <noscript lzl="">
-               <img alt="John Bierkan" decoding="async" src="wp-content/uploads/2025/03/unnamed-1.webp"/>
-              </noscript>
-             </div>
-             <cite class="elementor-testimonial__cite">
-              <span class="elementor-testimonial__name">
-               John Bierkan
-              </span>
-              <div class="elementor-star-rating">
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-               <i class="elementor-star-full">
-                ☆
-               </i>
-              </div>
-             </cite>
-             <div aria-label="Read More" class="elementor-testimonial__icon elementor-icon elementor-icon-google-plus">
-              <svg aria-hidden="true" class="e-font-icon-svg e-fab-google-plus" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-               <path d="M256,8C119.1,8,8,119.1,8,256S119.1,504,256,504,504,392.9,504,256,392.9,8,256,8ZM185.3,380a124,124,0,0,1,0-248c31.3,0,60.1,11,83,32.3l-33.6,32.6c-13.2-12.9-31.3-19.1-49.4-19.1-42.9,0-77.2,35.5-77.2,78.1S142.3,334,185.3,334c32.6,0,64.9-19.1,70.1-53.3H185.3V238.1H302.2a109.2,109.2,0,0,1,1.9,20.7c0,70.8-47.5,121.2-118.8,121.2ZM415.5,273.8v35.5H380V273.8H344.5V238.3H380V202.8h35.5v35.5h35.2v35.5Z">
-               </path>
-              </svg>
-             </div>
-            </a>
-            <div class="elementor-testimonial__content">
-             <div class="elementor-testimonial__text">
-              Thomas & Sebastian were attentive & responsive with helping me modernize my website!
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
+
         </div>
-       </div>
       </div>
-     </div>
+    </div>
+  </div>
+</div>
      <div class="elementor-element elementor-element-a87435e e-transform elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-ucaddon_blox_btn_group" data-e-type="widget" data-element_type="widget" data-id="a87435e" data-lzl-an="fadeIn" data-settings='{"_animation":"fadeIn","_transform_scale_effect_hover":{"unit":"px","size":1.1,"sizes":[]},"_animation_mobile":"none","_transform_scale_effect_hover_tablet":{"unit":"px","size":"","sizes":[]},"_transform_scale_effect_hover_mobile":{"unit":"px","size":"","sizes":[]}}' data-widget_type="ucaddon_blox_btn_group.default">
       <div class="elementor-widget-container">
        <div class="blox_btn_group uc-items-wrapper" id="uc_blox_btn_group_elementor_a87435e">
